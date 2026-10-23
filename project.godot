@@ -1,0 +1,18 @@
+; Demo and test project for the Screen Shake add-on. Only addons/screen_shake is the add-on.
+config_version=5
+
+[application]
+
+config/name="Screen Shake demo"
+run/main_scene="res://demo/demo.tscn"
+config/features=PackedStringArray("4.3")
+
+[display]
+
+window/size/viewport_width=960
+window/size/viewport_height=540
+window/stretch/mode="canvas_items"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/screen_shake/plugin.cfg")
